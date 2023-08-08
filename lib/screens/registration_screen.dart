@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class RegistrationScreen extends StatefulWidget {
+  static const id = '/registrationScreen';
   const RegistrationScreen({super.key});
 
   @override
