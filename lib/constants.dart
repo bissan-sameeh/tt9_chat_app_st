@@ -11,6 +11,13 @@ const kMessageTextFieldDecoration = InputDecoration(
   hintText: 'Type your message here...',
   border: InputBorder.none,
 );
+const kBorderOutLinedTextField = OutlineInputBorder(
+  borderRadius: BorderRadius.all(Radius.circular(32.0)),
+);
+const kBorderOutLinedFocusOrEnabledTextField = OutlineInputBorder(
+  borderSide: BorderSide(color: Colors.blueAccent, width: 1.0),
+  borderRadius: BorderRadius.all(Radius.circular(32.0)),
+);
 
 const kMessageContainerDecoration = BoxDecoration(
   border: Border(
